@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSemanticKernel", "HelloSemanticKernel\HelloSemanticKernel.csproj", "{8CC4C524-6B6A-4358-9643-C06636DE3D3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29D581BC-225C-4CB8-BD68-6119D904211F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticFunction", "SemanticFunction\SemanticFunction.csproj", "{9940845C-277D-484A-8290-FC17D8B76161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemPropmpts", "FileSystemPropmpts\FileSystemPropmpts.csproj", "{650A09FB-57D1-4784-9DDF-EF26648CF26B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CC4C524-6B6A-4358-9643-C06636DE3D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC4C524-6B6A-4358-9643-C06636DE3D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC4C524-6B6A-4358-9643-C06636DE3D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC4C524-6B6A-4358-9643-C06636DE3D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9940845C-277D-484A-8290-FC17D8B76161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9940845C-277D-484A-8290-FC17D8B76161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9940845C-277D-484A-8290-FC17D8B76161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9940845C-277D-484A-8290-FC17D8B76161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650A09FB-57D1-4784-9DDF-EF26648CF26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650A09FB-57D1-4784-9DDF-EF26648CF26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650A09FB-57D1-4784-9DDF-EF26648CF26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650A09FB-57D1-4784-9DDF-EF26648CF26B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
