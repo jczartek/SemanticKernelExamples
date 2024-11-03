@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticFunction", "Semanti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemPropmpts", "FileSystemPropmpts\FileSystemPropmpts.csproj", "{650A09FB-57D1-4784-9DDF-EF26648CF26B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileYamlPropmts", "FileYamlPropmts\FileYamlPropmts.csproj", "{9AAF40AA-F674-4D2C-9E0B-F9F00828E39B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,5 +28,9 @@ Global
 		{650A09FB-57D1-4784-9DDF-EF26648CF26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{650A09FB-57D1-4784-9DDF-EF26648CF26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{650A09FB-57D1-4784-9DDF-EF26648CF26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAF40AA-F674-4D2C-9E0B-F9F00828E39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAF40AA-F674-4D2C-9E0B-F9F00828E39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAF40AA-F674-4D2C-9E0B-F9F00828E39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAF40AA-F674-4D2C-9E0B-F9F00828E39B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

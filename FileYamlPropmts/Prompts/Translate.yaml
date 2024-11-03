@@ -1,0 +1,20 @@
+name: Translate
+template: |
+  Translate the following text from {{$source_language}} to {{$target_language}}: "{{$text_to_translate}}"
+description: "Translate text.",
+input_variables:
+  - name: "$source_language"
+    description: "Language from which the text will be translated."
+    is_required: true
+  - name: "$target_language"
+    description: "Language into which the text will be translated."
+    is_required: true
+  - name: "$text_to_translate"
+    description: "The text that needs to be translated."
+    is_required: true
+output_variable:
+  description: Translated sentence.
+execution_settings:
+  default:
+    max_tokens: 1000
+    temperature: 0.5
