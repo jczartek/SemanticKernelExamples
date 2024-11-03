@@ -10,7 +10,8 @@ var kernel = Kernel.CreateBuilder()
     .Build();
 
 var path = Path.Combine(Directory.GetCurrentDirectory(), "..","..","..", "Prompts", "Translate.yaml");
-var translateFunc = kernel.CreateFunctionFromPromptYaml(path);
+var promptYaml  = File.ReadAllText(path);
+var translateFunc = kernel.CreateFunctionFromPromptYaml(promptYaml);
 
 var result = await kernel.InvokeAsync(translateFunc, new KernelArguments
 {
